@@ -37,7 +37,7 @@ function Home() {
             </div>
           ))}
         </div>
-        <button class="btn btn-outline-success">see all</button>
+        <button class="btn btn-outline-success">See All <i class="bi bi-arrow-right"></i></button>
       </div>
     </div>
   );
