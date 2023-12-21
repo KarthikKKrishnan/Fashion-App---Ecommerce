@@ -62,9 +62,12 @@ function Nav() {
           <div onClick={() => navigate('/women')}>Wishlist</div>
           <div onClick={() => navigate('/women')}>Cart</div>
 
+          <div className='log'>
           {pathname != "/register" && <button onClick={() => navigate("/register")} class="btn btn-outline-success">Register</button>}
+          </div>
+          <div className='log'>
           {pathname != "/login" && <button onClick={() => navigate("/login")} class="btn btn-outline-success">Login</button>}
-      </div>}
+          </div>
     </div>
   )
 }
